@@ -15,16 +15,21 @@ $ dart migrate --apply-changes
 $ flutter run
 ```
 ## 📂 Folder (lib):  
+
 ```bash
 .
-|____home
+|____home 📂 
 | |____home_page.dart
-| |____widgets
-| | |____appbar
+| |____widgets 📂 
+| | |____appbar 📂 
 | | | |____app_bar_widget.dart
-|____splash
+| | |____chart 📂 
+| | | |____chart_widget.dart
+| | |____score_card 📂 
+| | | |____score_card_widget.dart
+|____splash 📂 
 | |____splash_page.dart
-|____core
+|____core 📂 
 | |____app_images.dart
 | |____core.dart
 | |____app_widget.dart
