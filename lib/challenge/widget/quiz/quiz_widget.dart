@@ -13,7 +13,7 @@ class QuizWidget extends StatelessWidget {
       children: [
         Text(title, style: AppTextStyles.heading),
         SizedBox(height: 24),
-        AnswerWidget(title: "Qual a função de main.dart?")
+        AnswerWidget(title: "Answer 1")
       ],
     ));
   }
